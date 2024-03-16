@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0"
-         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>me.abratuhi.demo</groupId>
@@ -12,6 +12,8 @@
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
+
+        <gib.referenceBranch>refs/heads/main</gib.referenceBranch>
     </properties>
 
     <modules>
@@ -20,5 +22,15 @@
         <module>sub3</module>
         <module>sub4</module>
     </modules>
+
+    <build>
+        <extensions>
+            <extension>
+                <groupId>io.github.gitflow-incremental-builder</groupId>
+                <artifactId>gitflow-incremental-builder</artifactId>
+                <version>4.5.3</version>
+            </extension>
+        </extensions>
+    </build>
 
 </project>
