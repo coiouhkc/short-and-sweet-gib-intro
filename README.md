@@ -32,6 +32,22 @@ _paginate: false
 
 ## Simulation using plain maven
 
+<!--
+mvn clean install
+
+mvn clean install -am -pl :sub1
+
+mvn clean install -amd -pl :sub1
+
+mvn clean install -am -pl :sub3
+
+mvn clean install -amd -pl :sub3
+
+mvn clean install -am -pl :sub4
+
+mvn clean install -amd -pl :sub4
+-->
+
 ---
 
 # Demo 2
