@@ -54,6 +54,35 @@ mvn clean install -amd -pl :sub4
 
 ## GIB
 
+<!--
+
+git checkout -b feature/test-gib
+
+mvn clean install
+
+mvn clean install -Dgib.buildAllIfNoChanges=true
+
+# change sub1/pom.xml
+
+mvn clean install
+
+# reset
+
+# change sub3/pom.xml
+
+# reset
+
+# change sub4/pom.xml
+
+-->
+
+---
+
+# Links
+
+* https://github.com/gitflow-incremental-builder/gitflow-incremental-builder
+* https://github.com/gitflow-incremental-builder/gitflow-incremental-builder?tab=readme-ov-file#configuration
+
 ---
 
 # Q&A
