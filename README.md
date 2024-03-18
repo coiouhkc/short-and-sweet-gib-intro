@@ -78,6 +78,19 @@ mvn clean install
 
 ---
 
+# Caveat emptor
+
+* detached HEAD
+* git fetch --depth=1
+
+<!--
+
+problems/challenges/tradeoffs in current project
+
+-->
+
+---
+
 # Links
 
 * https://github.com/gitflow-incremental-builder/gitflow-incremental-builder
